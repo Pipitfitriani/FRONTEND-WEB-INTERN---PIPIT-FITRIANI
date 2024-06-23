@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins';
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header, .section, .footer {
+    padding: 20px 0;
+}
+.navbar-logo {
+    width: 200px;
+    height: auto;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+.section img {
+    width: 100%;
+}
+.section {
+    padding: 40px 0;
+    background-color: #162229;
+}
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-content .text-content {
+    width: 60%;
+}
+.section-content .contact {
+    width: 35%;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #000000;
+    border-radius: 10px;
+}
+.section-content .contact h2 {
+    margin-top: 0;
+}
+.contact a {
+    color: #1391AD;
+    text-decoration: none;
+}
+.contact p {
+    margin: 10px 0;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-item i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.trainers, .members {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.trainers, .member h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.trainers div, .members div {
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1391AD;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.yellow-btn {
+    background-color: yellow;
+    color: black;
+}
+.benefits {
+    background-color: #1391AD;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.benefits div {
+    flex: 1;
+    margin: 0 10px;
+}
+.trainer-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.trainer-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.section-content .happy-members {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.section-content .happy-members h1 {
+    text-align: center;
+}
+.trainer-professional img {
+    border-radius: 214px;
+    width: 436px;
+    height: 154px;
+}
+.members div {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+    flex-direction: column;
+}
+.members img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.members .member-content {
+    flex: 0;
+    text-align: center;
+}
+.members h2, .members p.job-title {
+    margin: 0;
+}
+.members .description {
+    margin-top: 10px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.rounded-image {
+    border-radius: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-container h1 {
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .text-container {
+        flex-direction: column;
+    }
+    .text-container h1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.footer {
+    background-color: #1391AD;
+    padding: 20px 0;
+}
+.footer .container {
+    background-color: #1391AD;
+    color: #ffffff;
+}
+.footer nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer p {
+    margin: 10px 0;
+}
+.footer img {
+    width: 150px;
+}
